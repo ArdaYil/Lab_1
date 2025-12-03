@@ -6,7 +6,7 @@
 	.globl hex2asc
 
 hex2asc:
-	li	a0, 9		# test number (from 0 to 15)
+	li	a0, 12		# test number (from 0 to 15)
 	
 	addi    sp,sp,-4
 	sw      ra,0(sp)
